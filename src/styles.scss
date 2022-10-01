@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+
+html,body{
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.light-theme{
+    --text-color: black;
+    --bkg-color: white;
+}
+.dark-theme{
+    --text-color: white;
+    --bkg-color: black;
+}
+h1,p,.material-icons-two-tone,.material-icons-outlined ,.material-icons-sharp{
+    color: var(--text-color);
+}
+
+
+
+

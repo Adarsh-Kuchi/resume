@@ -1,0 +1,33 @@
+.intro-container{
+    max-width: 100%;
+    .intro-flex{
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        align-items: center;
+        flex-wrap: wrap;
+        .intro-text{
+            flex-basis: 45%;
+            .location, .social-media{
+                display: inline-flex;
+                flex-direction: row;
+                gap: 0.5em;
+                align-items: center;
+            }
+            .email, .linkedin , .resume{
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5em;
+            
+            }
+        }
+        .intro-img{
+            flex-basis: 45%;
+            text-align: center;
+            .cover-img{
+                width: 67%;
+                border-radius: 50%;
+            }
+        }
+    }
+}
