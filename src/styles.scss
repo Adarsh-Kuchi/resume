@@ -7,10 +7,12 @@ html,body{
 .light-theme{
     --text-color: black;
     --bkg-color: white;
+    --img-color:black;
 }
 .dark-theme{
     --text-color: white;
     --bkg-color: black;
+    --img-color:white;
 }
 h1,p,.material-icons-two-tone,.material-icons-outlined ,.material-icons-sharp{
     color: var(--text-color);

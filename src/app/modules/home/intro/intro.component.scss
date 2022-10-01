@@ -26,7 +26,9 @@
             text-align: center;
             .cover-img{
                 width: 67%;
-                border-radius: 50%;
+                //border-radius: 70% 30% 70% 30% / 30% 30% 70% 70%;
+                border-radius: 20%;
+                background: var(--img-color);
             }
         }
     }
