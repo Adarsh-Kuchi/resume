@@ -1,13 +1,13 @@
-import { style } from '@angular/animations';
+import { Component, OnInit, Inject, Renderer2 } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
-import { Component, Inject, OnInit, Renderer2 } from '@angular/core';
+
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  selector: 'app-header-modes',
+  templateUrl: './header-modes.component.html',
+  styleUrls: ['./header-modes.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderModesComponent implements OnInit {
   theme:Theme = 'light-theme';
 
 

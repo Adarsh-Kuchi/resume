@@ -2,12 +2,20 @@
 html,body{
     margin: 0;
     font-family: 'Montserrat Alternates', sans-serif;
+    --transform-speed:250ms;
 }
 
 .light-theme{
     --text-color: black;
     --bkg-color: white;
     --img-color:black;
+    // --bg-cover-color:  linear-gradient(
+    //   to right,
+    //   white 0%,
+    //   white 50%,
+    //   #ebeae9 50%,
+    //   #ebeae9 100%
+    // );
 }
 .dark-theme{
     --text-color: white;
@@ -16,6 +24,10 @@ html,body{
 }
 h1,p,.material-icons-two-tone,.material-icons-outlined ,.material-icons-sharp{
     color: var(--text-color);
+}
+p{
+  --font-size: 16px ;
+  --line-height:24px;
 }
 
 

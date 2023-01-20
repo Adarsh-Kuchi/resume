@@ -1,0 +1,19 @@
+.text-wrap{
+  padding: 1em;
+  position: relative;
+  .text-cont{
+    position:relative;
+    p{
+      font-size: var(--font-size);
+      line-height: var(--line-height);
+    }
+  }
+}
+
+#expand-icon{
+  font-size: clamp(100px,100%, 400px);
+  position: absolute;
+  bottom: -2em;
+  right: 50%;
+  cursor: pointer;
+}
