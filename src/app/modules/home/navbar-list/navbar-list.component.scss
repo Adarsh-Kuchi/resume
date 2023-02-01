@@ -1,0 +1,28 @@
+
+.navbar-wrap{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  .navbar-cont{
+    width: max-content;
+    background: grey;
+    border-radius: 50px;
+      button{
+        padding: 0.5em;
+        font-size: 16px;
+        line-height: 24px;
+        width: auto;
+        background: transparent;
+        border-radius: 50px;
+        border-style: none;
+      }
+      button:focus{
+        background:red;
+        outline: none;
+      }
+      button:first-child:focus{
+        background:red;
+      }
+  }
+
+}

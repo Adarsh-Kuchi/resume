@@ -5,16 +5,17 @@ import { SharedModule } from '../shared.module';
 
 
 
+
 @NgModule({
   declarations: [
-    HeaderModesComponent
+    HeaderModesComponent,
   ],
   imports: [
     CommonModule,
     SharedModule
   ],
   exports: [
-    HeaderModesComponent
+    HeaderModesComponent,
   ],
   providers: []
 })

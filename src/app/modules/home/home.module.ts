@@ -7,6 +7,9 @@ import { IntroComponent } from './intro/intro.component';
 import { SubjectComponent } from './subject/subject.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
+import { ReusableComponentsModule } from 'src/app/shared/reusable-components/reusable-components.module';
+import { NavbarListComponent } from './navbar-list/navbar-list.component';
+
 
 const routes: Routes = [
   {
@@ -19,11 +22,14 @@ const routes: Routes = [
     HomeComponent,
     HeaderComponent,
     IntroComponent,
-    SubjectComponent
+    SubjectComponent,
+    NavbarListComponent
+
   ],
   imports: [
     CommonModule,
     HomeRoutingModule,
+    ReusableComponentsModule,
     FormsModule
   ]
 })
