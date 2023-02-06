@@ -1,4 +1,3 @@
-
 .navbar-wrap{
   display: flex;
   width: 100%;
@@ -7,7 +6,7 @@
     width: max-content;
     background: grey;
     border-radius: 50px;
-      button{
+    button{
         padding: 0.5em;
         font-size: 16px;
         line-height: 24px;
@@ -15,13 +14,14 @@
         background: transparent;
         border-radius: 50px;
         border-style: none;
+        transition: background-color 0.3s ease-in-out;
       }
       button:focus{
         background:red;
         outline: none;
       }
-      button:first-child:focus{
-        background:red;
+      .list-item-active{
+        background: red !important;
       }
   }
 
