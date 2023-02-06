@@ -2,9 +2,7 @@ img{
     max-width: 100%;
     display: block;
 }
-.person-wrap{
-  
-}
+
 .person{
     max-width: 20rem;
     position: relative;
@@ -26,7 +24,7 @@ img{
     position: absolute;
     width: 20rem;
     height: 20rem;
-    background: var(--img-color);;
+    background: var(--btn-bg);;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;

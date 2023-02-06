@@ -2,13 +2,19 @@
   <div class="name">
       <h1>Kuchipudi Adarsh Kumar</h1>
   </div>
-  <div class="mode" (click)="switchTheme()">
-    <span [ngClass]="{'light-theme': theme === 'light-theme', 'hide': theme === 'dark-theme'}"  class="material-icons-sharp">
-        light_mode
-    </span>
-    <span [ngClass]="{'dark-theme': theme === 'dark-theme', 'hide': theme === 'light-theme'}"  class="material-icons-sharp">
-        dark_mode
-    </span>
+  <div class="cv-theme">
+    <div class="cv-btn">
+      <button class="cv btn-download" > Here is my CV</button>
 
-</div>
+    </div>
+    <div class="mode" (click)="switchTheme()">
+      <span [ngClass]="{'light-theme': theme === 'light-theme', 'hide': theme === 'dark-theme'}"  class="material-icons-sharp">
+          light_mode
+      </span>
+      <span [ngClass]="{'dark-theme': theme === 'dark-theme', 'hide': theme === 'light-theme'}"  class="material-icons-sharp">
+          dark_mode
+      </span>
+
+    </div>
+  </div>
 </div>

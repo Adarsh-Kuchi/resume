@@ -1,5 +1,6 @@
 import { Component, OnInit, Inject, Renderer2 } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
+import { saveAs } from 'file-saver';
 
 
 @Component({
@@ -27,6 +28,8 @@ export class HeaderModesComponent implements OnInit {
 
   initializeTheme = () =>
     this.renderer.addClass(this.document.body , this.theme);
+
+
 
 }
 export type Theme = 'light-theme' | 'dark-theme';
