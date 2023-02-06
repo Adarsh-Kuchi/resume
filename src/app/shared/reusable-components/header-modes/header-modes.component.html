@@ -3,12 +3,12 @@
       <h1>Kuchipudi Adarsh Kumar</h1>
   </div>
   <div class="mode" (click)="switchTheme()">
-      <span [ngClass]="'light-theme'"  class="material-icons-sharp">
-          light_mode
-      </span>
-      <span [ngClass]="'dark-theme'"  class="material-icons-sharp">
-          dark_mode
-      </span>
+    <span [ngClass]="{'light-theme': theme === 'light-theme', 'hide': theme === 'dark-theme'}"  class="material-icons-sharp">
+        light_mode
+    </span>
+    <span [ngClass]="{'dark-theme': theme === 'dark-theme', 'hide': theme === 'light-theme'}"  class="material-icons-sharp">
+        dark_mode
+    </span>
 
-  </div>
+</div>
 </div>
