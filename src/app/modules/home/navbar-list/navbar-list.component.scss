@@ -4,24 +4,27 @@
   justify-content: center;
   .navbar-cont{
     width: max-content;
-    background: grey;
+    background:  var(--btn-bg);
     border-radius: 50px;
     button{
         padding: 0.5em;
         font-size: 16px;
         line-height: 24px;
+        font-weight: 600;
         width: auto;
+        color: var(--btn-txt);
         background: transparent;
         border-radius: 50px;
         border-style: none;
         transition: background-color 0.3s ease-in-out;
       }
       button:focus{
-        background:red;
+        background:var(--after-btn-bg);
+        color:var(--text-color) ;
         outline: none;
       }
       .list-item-active{
-        background: red !important;
+        background: var(--after-btn-bg) !important;
       }
   }
 
