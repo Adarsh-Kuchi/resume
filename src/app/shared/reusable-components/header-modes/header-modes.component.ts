@@ -1,5 +1,6 @@
 import { Component, OnInit, Inject, Renderer2 } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
+import { ActivatedRoute, Router } from '@angular/router';
 import { saveAs } from 'file-saver';
 
 
@@ -14,12 +15,16 @@ export class HeaderModesComponent implements OnInit {
 
   constructor(@Inject(DOCUMENT)
      private document:Document,
-     private renderer: Renderer2
+     private renderer: Renderer2,
+     private router: Router
 
   ) { }
 
   ngOnInit(): void {
     this.initializeTheme
+  }
+  cover(){
+    this.router.navigate(['']);
   }
   switchTheme(){
     this.document.body.classList.replace(this.theme, this.theme ==='light-theme'? (this.theme = 'dark-theme') :(this.theme = 'light-theme'))
