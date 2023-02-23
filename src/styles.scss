@@ -2,18 +2,38 @@
 html,body{
     margin: 0;
     font-family: 'Montserrat Alternates', sans-serif;
+    --transform-speed:250ms;
 }
 
 .light-theme{
     --text-color: black;
     --bkg-color: white;
+    --img-color: linear-gradient(315deg, #000000 0%, #9da1a0 95%);
+    --btn-txt:white;
+    --btn-bg: linear-gradient(315deg, #171919 0%, #5c605f 74%);
+    --after-btn-bg:linear-gradient(315deg, #abb4b3 0%, #ffffff 74%);
+    // --bg-cover-color:  linear-gradient(
+    //   to right,
+    //   white 0%,
+    //   white 50%,
+    //   #ebeae9 50%,
+    //   #ebeae9 100%
+    // );
 }
 .dark-theme{
     --text-color: white;
     --bkg-color: black;
+    --img-color:linear-gradient(315deg, #343434 0%, #ffffff 94%);
+    --btn-txt:black;
+    --btn-bg:linear-gradient(315deg, #abb4b3 0%, #ffffff 74%);
+    --after-btn-bg:linear-gradient(315deg, #171919 0%, #5c605f 74%);
 }
 h1,p,.material-icons-two-tone,.material-icons-outlined ,.material-icons-sharp{
     color: var(--text-color);
+}
+p{
+  --font-size: 16px ;
+  --line-height:24px;
 }
 
 

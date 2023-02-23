@@ -1,9 +1,10 @@
 .home-container{
     max-width: 100%;
-    height: 100vh;
+    height: auto;
+    display: block;
     padding: 1em 3em;
     background: var(--bkg-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
 }
