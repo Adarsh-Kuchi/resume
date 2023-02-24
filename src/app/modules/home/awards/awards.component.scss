@@ -1,0 +1,39 @@
+.award-wrap{
+  width: 100%;
+  margin: 1em;
+  .award-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    .accu-div{
+      display: flex;
+      padding: 2em;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 24px;
+      font-weight: 500;
+      border: solid 0.3rem transparent;
+      transition: all 0.3s ease-in-out;
+      flex-wrap: wrap;
+      background:linear-gradient(rgb(0 0 0), rgb(44 43 44)) padding-box, linear-gradient(to left, rgba(255, 255, 255, 0.33) -17.36%, rgba(239, 239, 239, 0) 15.78%) border-box, linear-gradient(117.99deg, rgba(255, 255, 255, 0.165) 0%, rgba(255, 255, 255, 0) 33.89%) border-box;
+
+      width: 60%;
+      filter: drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.7));
+      p{
+        color: #fff;
+        width: 80%;
+        text-align: center;
+      }
+      .img-award{
+        display: flex;
+        justify-content: space-around;
+        max-width: 100%;
+        .accu-img{
+          object-fit: contain;
+          width: 80%;
+        }
+      }
+    }
+  }
+}
