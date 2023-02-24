@@ -10,11 +10,6 @@
         These awards are presented on a monthly basis to individuals who have demonstrated exceptional performance,
          dedication, and a commitment to driving growth and success within the company.
       </div>
-      <!-- accustar award meaning
-      The Accustar awards are a highly esteemed recognition program within our organization,
-       which seeks to acknowledge and reward outstanding contributions by employees.
-       These awards are presented on a monthly basis to individuals
-       who have demonstrated exceptional performance, dedication, and a commitment to driving growth and success within our company. -->
        <div class="img-award">
         <img src="../../../../assets/images/accustar2.jpg" class="accu-img">
       </div>
@@ -23,11 +18,15 @@
 
     </div>
     <div class="accu-div">
-      <!-- accustar award meaning
-      The Accustar awards are a highly esteemed recognition program within our organization,
-       which seeks to acknowledge and reward outstanding contributions by employees.
-       These awards are presented on a monthly basis to individuals
-       who have demonstrated exceptional performance, dedication, and a commitment to driving growth and success within our company. -->
+      <div class="info-icon" (mouseover)="showInfo = true" (mouseleave)= "showInfo = false"  (wheel)="showInfo = false"   >
+        <i class="fa-solid fa-circle-info"></i>
+      </div>
+      <div  *ngIf="showInfo" class="hover-info">
+        Accustar awards are a highly esteemed recognition program within our organization,
+         which seeks to acknowledge and reward outstanding contributions by employees.
+        These awards are presented on a monthly basis to individuals who have demonstrated exceptional performance,
+         dedication, and a commitment to driving growth and success within the company.
+      </div>
        <div class="img-award">
         <img src="../../../../assets/images/accustar.jpg" class="accu-img">
       </div>
