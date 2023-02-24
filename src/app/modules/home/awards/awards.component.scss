@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .award-wrap{
   width: 100%;
   margin: 1em;
@@ -33,6 +36,25 @@
           object-fit: contain;
           width: 80%;
         }
+      }
+      .info-icon{
+        color: black;
+        position: absolute;
+        right: 1em;
+        top: 1em;
+        .fa-solid{
+          color: white;
+        }
+      }
+      .hover-info{
+        width: 80%;
+        right: 1em;
+        top: 5em;
+        border-radius: 18px;
+        padding: 1em;
+        position: absolute;
+        background: var(--after-btn-bg);
+        z-index: 100;
       }
     }
   }

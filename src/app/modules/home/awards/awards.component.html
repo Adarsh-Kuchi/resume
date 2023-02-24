@@ -1,6 +1,15 @@
 <div class="award-wrap">
   <div class="award-cont">
     <div class="accu-div">
+      <div class="info-icon" (mouseover)="showInfo = true" (mouseleave)= "showInfo = false"  (wheel)="showInfo = false"   >
+        <i class="fa-solid fa-circle-info"></i>
+      </div>
+      <div  *ngIf="showInfo" class="hover-info">
+        Accustar awards are a highly esteemed recognition program within our organization,
+         which seeks to acknowledge and reward outstanding contributions by employees.
+        These awards are presented on a monthly basis to individuals who have demonstrated exceptional performance,
+         dedication, and a commitment to driving growth and success within the company.
+      </div>
       <!-- accustar award meaning
       The Accustar awards are a highly esteemed recognition program within our organization,
        which seeks to acknowledge and reward outstanding contributions by employees.
