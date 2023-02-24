@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./awards.component.scss']
 })
 export class AwardsComponent implements OnInit {
+  showInfo: boolean = false;
 
   constructor() { }
 
