@@ -8,6 +8,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ReusableComponentsModule } from 'src/app/shared/reusable-components/reusable-components.module';
 import { NavbarListComponent } from './navbar-list/navbar-list.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { AwardsComponent } from './awards/awards.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ExperienceComponent } from './experience/experience.component';
     HomeComponent,
     EducationComponent,
     NavbarListComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    AwardsComponent
 
   ],
   imports: [
